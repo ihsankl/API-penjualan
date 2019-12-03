@@ -6,10 +6,10 @@ const cors = require('cors');
 
 const mysql = require('mysql');
 const db = mysql.createPool({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'penjualan2'
+    host: 'remotemysql.com',
+    user: 'r5l5PHuuuZ',
+    password: 'WZ6xkMRI5J',
+    database: 'r5l5PHuuuZ'
 });
 
 app.use(bodyParser());
